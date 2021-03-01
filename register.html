@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/cards.css">
+    <link rel="stylesheet" href="./styles/flex.css">
+    <link rel="stylesheet" href="./styles/grid.css">
+    <link rel="stylesheet" href="./styles/display.css">
+    <link rel="stylesheet" href="./styles/space.css">
+    <link rel="stylesheet" href="./styles/typo.css">
+    <link rel="stylesheet" href="./styles/background.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+</head>
+<body>
+  <header class="header_container bg-gray">
+    <div class="header__box mx-55 px-6 md:flex mx-auto justify-between align-center hidden">
+        <a href="index.html" class="flex align-center header__link active"><i class='bx bxs-home mr-1'></i>Home</a>
+        <a href="register.html" class="flex align-center header__link"><i class='bx bx-id-card mr-1'></i>Register</a>
+        <a href="login.html" class="flex align-center header__link"><i class='bx bx-network-chart mr-1'></i>Login</a>
+    </div>
+</header>
+    <form action="#">
+        <div class="header_container px-6 mt-6">
+          <p class="about__inner-text ut__box">Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="fullname"><b>Fullname</b></label>
+          <input type="text" id="fullname" required>
+      
+          <label for="username"><b>Username</b></label>
+          <input type="password" name="username" id="username" required>
+      
+          <label for="psw"><b> Password</b></label>
+          <input type="password" placeholder="Password" name="psw" id="psw" required>
+          <div>
+          <input type="file" id="myFile" name="filename"></div>
+          <hr>
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+      
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+        
+        <div class="container signin">
+          <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+        </div>
+      </form>
+</body>
+</html>
